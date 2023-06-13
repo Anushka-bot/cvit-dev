@@ -1,0 +1,201 @@
+body{
+    position: relative;
+    width: 100wh;
+    height: 100vh;
+    background: #FFFFFF;
+    overflow: hidden;
+    margin: 0;
+}
+
+.logo{
+    position: absolute;
+    width: 77px;
+    height: 68px;
+    left: 15%;
+    top: 30px;
+}
+
+.heading{
+    position: absolute;
+    width: 395px;
+    height: 105px;
+    left: 40%;
+    top: 25vh;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 55px;
+    line-height: 105px;
+    color: #000000;
+}
+
+.navbar_home{
+    position: absolute;
+    width: 58px;
+    height: 30px;
+    left: 1003px;
+    top: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.test_project{
+    position: absolute;
+    width: 116px;
+    height: 26px;
+    left: 1102px;
+    top: 38px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.rect_but{
+    position: absolute;
+    width: 158px;
+    height: 34px;
+    left: 1102px;
+    top: 38px;
+    background: rgba(0, 0, 0, 0.77);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.text_line{
+    position: absolute;
+    width: 774px;
+    height: 30px;
+    left: 30%;
+    top: 250px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.text_line2{
+    position: absolute;
+    width: 774px;
+    height: 30px;
+    left: 60.2%;
+    top: 250px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #267DB0;
+}
+
+.main_button_rect{
+    position: absolute;
+    width: 365px;
+    height: 77px;
+    left: 537px;
+    top: 384px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.86);
+    border-radius: 20px;
+}
+
+.main_button_txt{
+    position: absolute;
+    width: 286px;
+    height: 45px;
+    left: 40%;
+    top: 340px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+    
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+.foot{
+    position: absolute;
+    width: 1536px;
+    height: 130px;
+    left: 0%;
+    top: 591px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.contact{
+    position: absolute;
+    width: fit-content;
+    height: 38px;
+    left: calc(50% - 134px/2);
+    top: 585px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.last_line{
+    position: absolute;
+    width: 218px;
+    height: 23px;
+    left: calc(50% - 218px/2 + 17px);
+    top: 680px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.06em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.website{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 720px;
+    top: 655px;
+}
+.email{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 754px;
+    top: 655px;
+}
+.phone{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 789px;
+    top: 655px;
+}
