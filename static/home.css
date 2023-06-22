@@ -29,45 +29,6 @@ body{
     color: #000000;
 }
 
-.navbar_home{
-    position: absolute;
-    width: 58px;
-    height: 30px;
-    left: 1003px;
-    top: 40px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
-}
-
-.test_project{
-    position: absolute;
-    width: 116px;
-    height: 26px;
-    left: 1102px;
-    top: 38px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 26px;
-    color: #FFFFFF;
-}
-
-.rect_but{
-    position: absolute;
-    width: 158px;
-    height: 34px;
-    left: 1102px;
-    top: 38px;
-    background: rgba(0, 0, 0, 0.77);
-    border-radius: 20px;
-    cursor: pointer;
-}
-
 .text_line{
     position: absolute;
     width: 774px;
@@ -99,35 +60,6 @@ body{
 
 
     color: #267DB0;
-}
-
-.main_button_rect{
-    position: absolute;
-    width: 365px;
-    height: 77px;
-    left: 537px;
-    top: 384px;
-    cursor: pointer;
-    background: rgba(0, 0, 0, 0.86);
-    border-radius: 20px;
-}
-
-.main_button_txt{
-    position: absolute;
-    width: 286px;
-    height: 45px;
-    left: 40%;
-    top: 340px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 45px;
-    /* identical to box height */
-
-    
-    color: #FFFFFF;
 }
 
 a{
