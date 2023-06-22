@@ -13,22 +13,16 @@
 </head>
 <body>
     <img src="../static/logo.jpg" alt="logo" class="logo">
-    <nav>
-        <a class="navbar_home" href="/">HOME</a>
-        <a href="/input" >
-            <button class="test_project rect_but">
-                TEST PROJECT
-            </button>
-        </a>
-    </nav>
+
     <div class="heading">Lip Reading</div>
     <p class="text_line">Model for converting lip movements to text. Developed by</p>
     <p class="text_line2">CVIT, IIIT HYDERABAD.</p>
-    <a href="/input">
-        <button class="main_button_rect main_button_txt">
-            TEST PROJECT
-        </button>
-    </a>    
+
+    <form action="/process" method="POST" enctype="multipart/form-data">
+        <input style="top: 341px;position: relative;left: 641px;" name='video' id="video" type="file"/>
+        <input style="top: 341px;position: relative; left: 590px;" id="submit" type="submit"/>
+    </form>
+
     <footer class="foot"></footer>
     <p class="contact">Contact Us</p>
     <a href="https://cvit.iiit.ac.in/">
